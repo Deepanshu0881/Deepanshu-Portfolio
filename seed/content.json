@@ -1,0 +1,216 @@
+{
+  "site": {
+    "title": "Alex Morgan — Full-Stack Developer",
+    "description": "Portfolio of Alex Morgan, a full-stack developer building fast, reliable software with TypeScript, Go and the cloud.",
+    "accent": "#10b981",
+    "theme": "dark",
+    "terminal": true,
+    "footerNote": "Designed & built from scratch.",
+    "sections": {
+      "about": { "visible": true, "title": "About me", "subtitle": "A little about who I am and how I like to work." },
+      "stack": { "visible": true, "title": "Technologies I work with", "subtitle": "The languages, frameworks and tools I use to turn ideas into shipped software." },
+      "experience": { "visible": true, "title": "Where I’ve worked", "subtitle": "Teams and products I’ve helped build." },
+      "projects": { "visible": true, "title": "Things I’ve built", "subtitle": "A selection of projects I’m proud of — from weekend experiments to production systems." },
+      "achievements": { "visible": true, "title": "Achievements", "subtitle": "Milestones, awards and certifications along the way." },
+      "contact": { "visible": true, "title": "Let’s build something together", "subtitle": "Have a project in mind, a role to fill, or just want to say hi? My inbox is always open." }
+    }
+  },
+  "profile": {
+    "name": "Alex Morgan",
+    "handle": "alex",
+    "greeting": "Hi, I’m",
+    "roles": ["Full-Stack Developer", "Backend Engineer", "Cloud & DevOps Enthusiast", "Open-Source Contributor"],
+    "headline": "I design and build fast, reliable software for the web — from database schemas and APIs to polished, accessible interfaces.",
+    "bio": "I’m a software developer with **5+ years** of experience shipping products used by thousands of people every day. I enjoy working across the whole stack, but I’m happiest designing clean APIs, scalable backend systems and interfaces that feel effortless.\n\nThese days I’m building developer tooling and data-heavy dashboards with `TypeScript`, `Go` and `PostgreSQL`. I care deeply about performance, readable code and a thoughtful developer experience.\n\nWhen I’m away from the keyboard you’ll find me contributing to open source, writing about what I learn, or exploring a new hiking trail.",
+    "photo": "",
+    "photoFocus": 30,
+    "location": "Bengaluru, India",
+    "timezone": "Asia/Kolkata",
+    "email": "alex.morgan@example.com",
+    "resume": "",
+    "available": true,
+    "availability": "Open to new opportunities",
+    "yearsExperience": 5,
+    "socials": [
+      { "platform": "github", "url": "https://github.com/your-username" },
+      { "platform": "linkedin", "url": "https://www.linkedin.com/in/your-username" },
+      { "platform": "x", "url": "https://x.com/your-username" },
+      { "platform": "leetcode", "url": "https://leetcode.com/your-username" }
+    ]
+  },
+  "technologies": [
+    { "name": "TypeScript", "category": "Languages", "icon": "typescript", "level": 5 },
+    { "name": "JavaScript", "category": "Languages", "icon": "javascript", "level": 5 },
+    { "name": "Go", "category": "Languages", "icon": "go", "level": 4 },
+    { "name": "Python", "category": "Languages", "icon": "python", "level": 4 },
+    { "name": "React", "category": "Frontend", "icon": "react", "level": 5 },
+    { "name": "Next.js", "category": "Frontend", "icon": "nextdotjs", "level": 4 },
+    { "name": "Tailwind CSS", "category": "Frontend", "icon": "tailwindcss", "level": 4 },
+    { "name": "Node.js", "category": "Backend", "icon": "nodedotjs", "level": 5 },
+    { "name": "Express", "category": "Backend", "icon": "express", "level": 4 },
+    { "name": "GraphQL", "category": "Backend", "icon": "graphql", "level": 4 },
+    { "name": "PostgreSQL", "category": "Databases", "icon": "postgresql", "level": 4 },
+    { "name": "MongoDB", "category": "Databases", "icon": "mongodb", "level": 4 },
+    { "name": "Redis", "category": "Databases", "icon": "redis", "level": 3 },
+    { "name": "Docker", "category": "DevOps & Cloud", "icon": "docker", "level": 4 },
+    { "name": "Kubernetes", "category": "DevOps & Cloud", "icon": "kubernetes", "level": 3 },
+    { "name": "GitHub Actions", "category": "DevOps & Cloud", "icon": "githubactions", "level": 4 },
+    { "name": "Google Cloud", "category": "DevOps & Cloud", "icon": "googlecloud", "level": 3 },
+    { "name": "Linux", "category": "Tools", "icon": "linux", "level": 4 },
+    { "name": "Git", "category": "Tools", "icon": "git", "level": 5 },
+    { "name": "Figma", "category": "Tools", "icon": "figma", "level": 3 }
+  ],
+  "experience": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "Nimbus Labs",
+      "url": "https://example.com",
+      "location": "Remote",
+      "start": "2023-04",
+      "end": "",
+      "current": true,
+      "description": "Leading development of a real-time analytics platform that processes **2M+ events a day**. I own the API layer, drove the migration from a monolith to event-driven services, and mentor a team of four engineers.",
+      "tags": ["Go", "TypeScript", "PostgreSQL", "Kubernetes"]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Brightpath Technologies",
+      "url": "https://example.com",
+      "location": "Bengaluru, India",
+      "start": "2021-01",
+      "end": "2023-03",
+      "current": false,
+      "description": "Built and scaled the customer-facing web app from 10k to 150k monthly users. Cut page load times by **45%** with code-splitting, edge caching and a redesigned data-fetching layer.",
+      "tags": ["React", "Node.js", "Redis", "Docker"]
+    },
+    {
+      "role": "Software Engineering Intern",
+      "company": "CodeCraft Studio",
+      "url": "",
+      "location": "Pune, India",
+      "start": "2020-01",
+      "end": "2020-12",
+      "current": false,
+      "description": "Shipped features for an e-commerce platform and wrote the team’s first end-to-end test suite, catching regressions before every release.",
+      "tags": ["JavaScript", "Express", "MongoDB"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "DevPulse",
+      "description": "An open-source developer analytics dashboard that turns GitHub activity into actionable insights about team velocity, review health and code quality.",
+      "image": "",
+      "tags": ["TypeScript", "Next.js", "Go", "PostgreSQL"],
+      "highlights": ["Real-time updates over WebSockets for 500+ concurrent users", "Pluggable metrics engine written in Go", "Lighthouse score of 100 for performance and accessibility"],
+      "liveUrl": "https://example.com",
+      "repoUrl": "https://github.com/your-username/devpulse",
+      "year": "2025",
+      "featured": true
+    },
+    {
+      "title": "ShipIt CLI",
+      "description": "A zero-config deployment CLI that builds, containerizes and ships Node.js apps to any VPS in under a minute — with automatic HTTPS and rollbacks.",
+      "image": "",
+      "tags": ["Go", "Docker", "CLI"],
+      "highlights": ["Single static binary, no runtime dependencies", "Zero-downtime blue/green deploys", "1.2k+ downloads in the first month"],
+      "liveUrl": "",
+      "repoUrl": "https://github.com/your-username/shipit",
+      "year": "2024",
+      "featured": true
+    },
+    {
+      "title": "Snippetbox",
+      "description": "A keyboard-first code snippet manager with fuzzy search, syntax highlighting for 100+ languages and offline sync.",
+      "image": "",
+      "tags": ["React", "TypeScript", "PWA"],
+      "highlights": ["Works fully offline with IndexedDB sync", "Command palette for everything"],
+      "liveUrl": "https://example.com",
+      "repoUrl": "https://github.com/your-username/snippetbox",
+      "year": "2024",
+      "featured": true
+    },
+    {
+      "title": "Rate Limiter Lab",
+      "description": "An interactive playground that visualizes token-bucket, leaky-bucket and sliding-window rate limiting algorithms in real time.",
+      "image": "",
+      "tags": ["TypeScript", "Canvas"],
+      "highlights": [],
+      "liveUrl": "https://example.com",
+      "repoUrl": "https://github.com/your-username/rate-limiter-lab",
+      "year": "2023",
+      "featured": false
+    },
+    {
+      "title": "QueueStack",
+      "description": "A lightweight Redis-backed job queue for Node.js with retries, priorities, cron jobs and a built-in web dashboard.",
+      "image": "",
+      "tags": ["Node.js", "Redis"],
+      "highlights": [],
+      "liveUrl": "",
+      "repoUrl": "https://github.com/your-username/queuestack",
+      "year": "2023",
+      "featured": false
+    },
+    {
+      "title": "Markdown Résumé",
+      "description": "Write your résumé in Markdown and export a pixel-perfect, ATS-friendly PDF with a single command.",
+      "image": "",
+      "tags": ["Python", "CLI"],
+      "highlights": [],
+      "liveUrl": "",
+      "repoUrl": "https://github.com/your-username/markdown-resume",
+      "year": "2022",
+      "featured": false
+    }
+  ],
+  "achievements": [
+    {
+      "title": "1st Place — CodeSprint Global Hackathon",
+      "issuer": "CodeSprint",
+      "date": "2024-08",
+      "type": "hackathon",
+      "description": "Built an AI-assisted code review bot in 36 hours, selected from 300+ competing teams.",
+      "url": ""
+    },
+    {
+      "title": "Certified Kubernetes Application Developer",
+      "issuer": "Cloud Native Computing Foundation",
+      "date": "2024-02",
+      "type": "certification",
+      "description": "Validated skills in designing, building and deploying cloud-native applications on Kubernetes.",
+      "url": "https://example.com"
+    },
+    {
+      "title": "Speaker — “Scaling Postgres for Real-Time Apps”",
+      "issuer": "DevConf Bengaluru",
+      "date": "2023-11",
+      "type": "talk",
+      "description": "Shared lessons from running high-write PostgreSQL workloads to an audience of 400+ engineers.",
+      "url": "https://example.com"
+    },
+    {
+      "title": "1,000+ GitHub stars on DevPulse",
+      "issuer": "Open source",
+      "date": "2025-03",
+      "type": "open-source",
+      "description": "Grew an open-source project to a community of 40+ contributors.",
+      "url": "https://github.com/your-username/devpulse"
+    },
+    {
+      "title": "Engineer of the Year",
+      "issuer": "Brightpath Technologies",
+      "date": "2022-12",
+      "type": "award",
+      "description": "Recognised for leading the performance overhaul that doubled user retention.",
+      "url": ""
+    },
+    {
+      "title": "Top 5% on LeetCode",
+      "issuer": "LeetCode",
+      "date": "2022-06",
+      "type": "milestone",
+      "description": "Solved 600+ algorithmic problems; contest rating in the top 5% globally.",
+      "url": ""
+    }
+  ]
+}
